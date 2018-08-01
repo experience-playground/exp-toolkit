@@ -16,6 +16,7 @@ If you want to simply clone this empty repository then run this command in your 
 
 # Getting Started
 If you're on a system that has 'bash' (linux, osx, cygwin, etc) run:
+    
     ./go.sh
 
 # Technology Accelerators
