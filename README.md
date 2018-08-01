@@ -22,3 +22,6 @@ If you want to simply clone this empty repository then run this command in your 
 * [hybrid-mobile Ionic](https://innersource.accenture.com/projects/A3050/repos/ionic2-app-sample/browse) Krett?
 * [native-android] Krett?
 * [native-ios] Krett?
+* [elastic-path](https://innersource.accenture.com/projects/EPB) Lewter?
+
+# Functional Accelerators
