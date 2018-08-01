@@ -14,14 +14,16 @@ If you want to simply clone this empty repository then run this command in your 
 
     git clone ssh://git@innersource.accenture.com/dqt/start-here.git
 
+# Getting Started
+If you're on a system that has 'bash' (linux, osx, cygwin, etc) run:
+    ./go.sh
 
 # Technology Accelerators
-* [hybris](https://innersource.accenture.com/projects/A1129/repos/hybris-quickstart/browse) Lou
-* [AEM 6.3](https://innersource.accenture.com/projects/GSKDO/repos/aem_install_author_publish/browse) Ito
+* [hybris](https://innersource.accenture.com/projects/A1129/repos/hybris-quickstart/browse) [Lou Baliotis](https://people.accenture.com/People/user/louis.baliotis)
+* [AEM 6.3](https://innersource.accenture.com/projects/GSKDO/repos/aem_install_author_publish/browse) [Jon Ito](https://people.accenture.com/People/user/jon.ito)
 * [angular](https://innersource.accenture.com/projects/NEW/repos/newao-angular/browse) Krett?
-* [hybrid-mobile Ionic](https://innersource.accenture.com/projects/A3050/repos/ionic2-app-sample/browse) Krett?
-* [native-android] Krett?
-* [native-ios] Krett?
-* [elastic-path](https://innersource.accenture.com/projects/EPB) Lewter?
-
-# Functional Accelerators
+* [hybrid-mobile Ionic](https://innersource.accenture.com/projects/A3050/repos/ionic2-app-sample/browse) [Brandon Krett](https://people.accenture.com/People/user/brandon.krett)
+* [native-android] [Brandon Krett](https://people.accenture.com/People/user/brandon.krett)
+* [native-ios] [Brandon Krett](https://people.accenture.com/People/user/brandon.krett)
+* [elastic-path](https://innersource.accenture.com/projects/EPB) [Matt Lewter](https://people.accenture.com/People/user/matthew.lewter)
+* [spring-boot]()
