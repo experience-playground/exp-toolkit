@@ -9,7 +9,9 @@ buildscript{
 }
 
 
-
-
-task setupjenkins(type: JenkinsAdminTask)
+task setupjenkins(type: JenkinsAdminTask,
+        constructorArgs:[project.property('jenkins.host'),
+                         project.property('jenkins.user'),
+                         project.property('jenkins.password'),
+                         project.property('jenkins.plugins')])
 

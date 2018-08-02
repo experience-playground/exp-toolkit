@@ -46,7 +46,7 @@ public class JenkinsServerv2 implements Closeable {
     private final Logger LOGGER = LoggerFactory.getLogger(getClass());
 
         public installNecessaryPlugins(Plugin plugin) {
-            client.post_xml("/pluginManager/installNecessaryPlugins", "<jenkins><install plugin\"${plugin.shortName}@${plugin.version}\" /></jenkins>", true)
+            client.post_xml("/pluginManager/installNecessaryPlugins", "<jenkins><install plugin=\"${plugin.shortName}@${plugin.version}\" /></jenkins>", true)
 
         }
 

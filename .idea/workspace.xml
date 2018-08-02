@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/buildSrc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/buildSrc_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/buildSrc_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/.gradle/4.9/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/buildSrc/.gradle/4.9/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/.gradle/4.9/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/buildSrc/.gradle/4.9/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/com/accenture/devops/JenkinsAdminTask$_setup_closure1.class" afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/com/accenture/devops/JenkinsAdminTask$_setup_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/com/accenture/devops/JenkinsAdminTask.class" afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/com/accenture/devops/JenkinsAdminTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/com/accenture/devops/JenkinsServerv2.class" afterPath="$PROJECT_DIR$/buildSrc/build/classes/groovy/main/com/accenture/devops/JenkinsServerv2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/cache.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/build.gradle" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -118,80 +114,60 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.62198794">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/buildSrc/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JenkinsAdminTask.groovy" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#29#72#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JenkinsServerv2.groovy" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#31#57#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gradle.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="jenkins.sh" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tools/jenkins.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buildSrc/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JenkinsAdminTask.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#29#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JenkinsServerv2.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-781">
+              <caret line="48" column="96" lean-forward="false" selection-start-line="48" selection-start-column="96" selection-end-line="48" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -201,6 +177,7 @@
       <find>JenkinsServer</find>
       <find>xml</find>
       <find>updatePlugin</find>
+      <find>update</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -317,9 +294,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7587973689000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2230254354" />
+        <entry key="$PROJECT_DIR$" value="7588063589000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1134228748" />
         <entry key="$PROJECT_DIR$/buildSrc/build.gradle" value="3815912057" />
+        <entry key="$PROJECT_DIR$/gradle.properties" value="2635469343" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2371942159" />
         <entry key="$USER_HOME$/projects-new/admin-tool-v2" value="1461941906000" />
         <entry key="$USER_HOME$/projects-new2/fmc-testautomation" value="2939442398000" />
@@ -518,11 +496,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tools/jenkins.sh" />
-        <option value="$PROJECT_DIR$/buildSrc/build.gradle" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsTask.groovy" />
-        <option value="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy" />
+        <option value="$PROJECT_DIR$/buildSrc/build.gradle" />
       </list>
     </option>
   </component>
@@ -832,7 +811,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1533211899263" />
+    <option name="lastUpdateTimestamp" value="1533235138532" />
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/projects-new/commandcompletion" value="1462286144000" />
@@ -867,7 +846,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533165068611</updated>
-      <workItem from="1533165073601" duration="13209000" />
+      <workItem from="1533165073601" duration="18006000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -880,7 +859,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13209000" />
+    <option name="totallyTimeSpent" value="18006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-1400" width="2180" height="1336" extended-state="0" />
@@ -930,7 +909,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -942,14 +935,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/jenkins.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -958,39 +943,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy">
+    <entry file="jar://$USER_HOME$/.gradle/caches/3.5-rc-2/generated-gradle-jars/gradle-api-3.5-rc-2.jar!/org/gradle/internal/reflect/JavaMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-          <folding>
-            <element signature="e#31#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buildSrc/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="477">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsServerv2.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-781">
+          <caret line="48" column="96" lean-forward="false" selection-start-line="48" selection-start-column="96" selection-end-line="48" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buildSrc/src/main/groovy/com/accenture/devops/JenkinsAdminTask.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#29#72#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildSrc/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
