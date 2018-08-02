@@ -1,6 +1,9 @@
 # Digital Accelerator Home
 
 To get started you will need to run these commands in your terminal.
+    ssh-keygen -t rsa -b 4096 -C "accenture.eid@accenture.com"
+When prompted for location, enter
+
 
 New to Git? Learn the basic Git commands
 Configure Git for the first time
@@ -11,6 +14,7 @@ Configure Git for the first time
 Working with your repository
 I just want to clone this repository
 If you want to simply clone this empty repository then run this command in your terminal.
+
 
     git clone ssh://git@innersource.accenture.com/dqt/start-here.git
 
@@ -28,3 +32,10 @@ If you're on a system that has 'bash' (linux, osx, cygwin, etc) run:
 * [native-ios] [Brandon Krett](https://people.accenture.com/People/user/brandon.krett)
 * [elastic-path](https://innersource.accenture.com/projects/EPB) [Matt Lewter](https://people.accenture.com/People/user/matthew.lewter)
 * [spring-boot]()
+
+# Process Runbooks
+
+* [source-code-control]
+* [ci-cd]
+* [test-automation]
+

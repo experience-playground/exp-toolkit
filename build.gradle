@@ -1,32 +1,22 @@
-import java.io.*
-import groovyx.net.http.HTTPBuilder
-import groovyx.net.http.EncoderRegistry
-import static groovyx.net.http.Method.*
-import static groovyx.net.http.ContentType.*
-
+import com.offbytwo.jenkins.JenkinsServer
 buildscript{
     repositories {
         mavenCentral()
     }
 
     dependencies {
-        classpath "org.codehaus.groovy.modules.http-builder:http-builder:0.5.2"
+        classpath 'com.offbytwo.jenkins:jenkins-client:0.3.8'
+        classpath 'javax.xml.bind:jaxb-api'
+
+
     }
+}
+dependencies {
+    classpath 'com.offbytwo.jenkins:jenkins-client:0.3.8'
+    classpath 'javax.xml.bind:jaxb-api'
+
+
 }
 task jenkins {
-
-}
-task hello {
-    def http = new HTTPBuilder('http://54.227.99.147')
-
-    http.auth.basic 'user', '2yjF0mk66wFe'
-    http.request(GET, JSON ) {
-
-        uri.path = '/jenkins/crumbIssuer/api'
-        uri.rawQuery = 'xpath=concat(//crumbRequestField,":",//crumb)'
-        //uri.query = ['xpath':'concat(//crumbRequestField,":",//crumb)']
-        response.success = {resp, reader ->
-            println "here"
-        }
-    }
+    JenkinsServer jenkins = new JenkinsServer(new URI("http://54.227.99.147/jenkins"), "user", "2yjF0mk66wFe")
 }

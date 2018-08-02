@@ -4,3 +4,7 @@ source ~/.sdkman/bin/sdkman-init.sh
 sdk install java
 sdk install groovy
 sdk install gradle
+./gradlew --version
+java --version
+groovy --version
+gradle --version

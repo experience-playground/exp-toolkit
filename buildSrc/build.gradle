@@ -1,0 +1,7 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.offbytwo.jenkins:jenkins-client:0.3.8'
+}
