@@ -1,22 +1,15 @@
-import com.offbytwo.jenkins.JenkinsServer
+import com.accenture.devops.JenkinsAdminTask
+
 buildscript{
     repositories {
         mavenCentral()
     }
 
-    dependencies {
-        classpath 'com.offbytwo.jenkins:jenkins-client:0.3.8'
-        classpath 'javax.xml.bind:jaxb-api'
-
-
-    }
-}
-dependencies {
-    classpath 'com.offbytwo.jenkins:jenkins-client:0.3.8'
-    classpath 'javax.xml.bind:jaxb-api'
-
 
 }
-task jenkins {
-    JenkinsServer jenkins = new JenkinsServer(new URI("http://54.227.99.147/jenkins"), "user", "2yjF0mk66wFe")
-}
+
+
+
+
+task setupjenkins(type: JenkinsAdminTask)
+
