@@ -47,7 +47,6 @@ public class JenkinsServerv2 implements Closeable {
 
         public installNecessaryPlugins(Plugin plugin) {
             client.post_xml("/pluginManager/installNecessaryPlugins", "<jenkins><install plugin=\"${plugin.shortName}@${plugin.version}\" /></jenkins>", true)
-
         }
 
         /**
