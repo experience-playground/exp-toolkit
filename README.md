@@ -23,7 +23,20 @@ If you're on a system that has 'bash' (linux, osx, cygwin, etc) run:
     
     ./go.sh
 
+It runs the following commands and will give you sdkman, java, groovy, and gradle:
 
+    #!/bin/bash
+    ./tools/sdk.sh
+    source ~/.sdkman/bin/sdkman-init.sh
+    #sdk install java
+    #sdk install groovy
+    #sdk install gradle
+    ./gradlew --version
+    sdk c java
+    sdk c groovy
+    sdk c gradle
+    mkdir keys
+    ssh-keygen -t rsa -N "" -C "jenkins@accenture.com" -f keys/id_jenkins
 
 # Technology Accelerators
 * [hybris](https://innersource.accenture.com/projects/A1129/repos/hybris-quickstart/browse) [Lou Baliotis](https://people.accenture.com/People/user/louis.baliotis)
