@@ -12,7 +12,7 @@ last and first name, substitute <accenture.eid> for your Accenture enterprise ID
 
 Clone this repository
 
-    git clone https://innersource.accenture.com/scm/dqt/start-here.git
+    git clone https://innersource.accenture.com/scm/dqt/java-local-setup.git
      
 
 # Getting Started
