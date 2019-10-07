@@ -1,0 +1,10 @@
+Acclerate Code Now
+acn is a command line tool to accelerate setting up projects with common patterns and tools.
+
+Usage
+=====
+acn list
+List available platforms/tools
+
+acn [platform] install
+Install platform
