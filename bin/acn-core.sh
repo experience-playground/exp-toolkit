@@ -12,6 +12,5 @@ function __acn_version() {
 
 function __acn_update() {
   (cd $ACN_HOME_DIR; git pull) || return 1
-  source $ACN_HOME_DIR/acn-init.sh
   return 0
 }
