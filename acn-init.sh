@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [[ -z "$ACN_HOME_DIR" ]]; then
-  export ACN_HOME_DIR=$HOME/test/start-here
+  export ACN_HOME_DIR=$HOME/.acn
 fi
 
 ACN_PLATFORM_DIR="$ACN_HOME_DIR/platforms"
