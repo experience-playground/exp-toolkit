@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-export ACN_HOME_DIR=$HOME/.acn
+if [[ -z "$ACN_HOME_DIR" ]]; then
+  export ACN_HOME_DIR=$HOME/test/start-here
+fi
 
 ACN_PLATFORM_DIR="$ACN_HOME_DIR/platforms"
 OLD_IFS="$IFS"

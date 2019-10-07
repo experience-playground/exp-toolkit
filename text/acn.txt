@@ -3,8 +3,14 @@ acn is a command line tool to accelerate setting up projects with common pattern
 
 Usage
 =====
-acn list
-List available platforms/tools
+acn
+- return this help
 
-acn [platform] install
-Install platform
+acn update
+- update this tool to latest version
+
+acn list
+- return list of platforms
+
+acn [platform]
+- return commands available for specific platform
