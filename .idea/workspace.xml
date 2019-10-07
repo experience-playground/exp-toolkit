@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/acn-aws.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/acn-core.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/acn-help.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platforms/aws/setupaws.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acn-init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/acn-init.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/acn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text/acn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-core.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/acn-core.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +230,7 @@
       <workItem from="1533312966075" duration="310000" />
       <workItem from="1533313307513" duration="4550000" />
       <workItem from="1570462025224" duration="4192000" />
-      <workItem from="1570466316472" duration="10491000" />
+      <workItem from="1570466316472" duration="10796000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
