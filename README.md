@@ -1,43 +1,38 @@
-# Digital Accelerator Home
+# Prequisites
 
-To get started you will need to run these commands in your terminal.
-    ssh-keygen -t rsa -b 4096 -C "accenture.eid@accenture.com"
-When prompted for location, enter
-
+git client - on a standard accenture mac osx build, you should be able to just run the command git 
+and it will download and enable git.
 
 New to Git? Learn the basic Git commands
-Configure Git for the first time
+If you haven't configured git before, enter these commands.  Substitute <Lastname, Firstname> with your 
+last and first name, substitute <accenture.eid> for your Accenture enterprise ID.
 
-    git config --global user.name "Lastname, Firstname"
-    git config --global user.email "accenture.eid@accenture.com"
+    git config --global user.name "<Lastname, Firstname>"
+    git config --global user.email "<accenture.eid>@accenture.com"
 
-Working with your repository
-I just want to clone this repository
-If you want to simply clone this empty repository then run this command in your terminal.
+Clone this repository
 
-
-    git clone ssh://git@innersource.accenture.com/dqt/start-here.git
+    git clone https://innersource.accenture.com/scm/dqt/start-here.git
+     
 
 # Getting Started
 If you're on a system that has 'bash' (linux, osx, cygwin, etc) run:
     
-    ./go.sh
+    ./setupjava.sh
 
 It runs the following commands and will give you sdkman, java, groovy, and gradle:
 
     #!/bin/bash
     ./tools/sdk.sh
     source ~/.sdkman/bin/sdkman-init.sh
-    #sdk install java
-    #sdk install groovy
-    #sdk install gradle
+    sdk install java
+    sdk install groovy
+    sdk install gradle
     ./gradlew --version
     sdk c java
     sdk c groovy
     sdk c gradle
-    mkdir keys
-    ssh-keygen -t rsa -N "" -C "jenkins@accenture.com" -f keys/id_jenkins
-
+    
 # Technology Accelerators
 * [hybris](https://innersource.accenture.com/projects/A1129/repos/hybris-quickstart/browse) [Lou Baliotis](https://people.accenture.com/People/user/louis.baliotis)
 * [AEM 6.3](https://innersource.accenture.com/projects/GSKDO/repos/aem_install_author_publish/browse) [Jon Ito](https://people.accenture.com/People/user/jon.ito)
