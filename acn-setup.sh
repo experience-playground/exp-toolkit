@@ -8,9 +8,6 @@ fi
 (cd $ACN_HOME_DIR; git pull)
 
 
-source "$ACN_HOME_DIR/acn-init.sh"
-
-
 
 
 

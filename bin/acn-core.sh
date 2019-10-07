@@ -2,6 +2,7 @@ function __acn_list() {
   echo "available tools"
   echo " aws"
   echo " java"
+  echo " nodejs"
   return 0
 }
 
