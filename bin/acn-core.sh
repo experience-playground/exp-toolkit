@@ -5,6 +5,11 @@ function __acn_list() {
   return 0
 }
 
+function __acn_version() {
+  echo "0.1-beta"
+  return 0
+}
+
 function __acn_update() {
   (cd $ACN_HOME_DIR; git pull) || return 1
   source $ACN_HOME_DIR/acn-init.sh
