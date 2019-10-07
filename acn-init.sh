@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 export ACN_HOME_DIR=`dirname "$0"`
+echo $ACN_HOME_DIR
 
 ACN_PLATFORM_DIR="$ACN_HOME_DIR/platforms"
 OLD_IFS="$IFS"
