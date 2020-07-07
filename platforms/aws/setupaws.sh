@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
-unzip awscli-bundle.zip
-sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "awscli-v2.pkg"
+sudo installer -verbose -pkg "awscli-v2.pkg" -target /
+aws --version
