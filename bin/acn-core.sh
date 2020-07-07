@@ -3,6 +3,7 @@ function __acn_list() {
   echo " aws"
   echo " java"
   echo " nodejs"
+  echo " devops"
   return 0
 }
 

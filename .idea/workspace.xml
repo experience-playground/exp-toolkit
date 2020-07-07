@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Updated to handle dirty uninstall.  Added AWS v2">
+      <change afterPath="$PROJECT_DIR$/bin/acn-devops.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acn-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/acn-setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/aws/setupaws.sh" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/aws/setupaws.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-core.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/acn-core.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="false" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -224,7 +242,7 @@
       <workItem from="1533313307513" duration="4550000" />
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
-      <workItem from="1594157995871" duration="1703000" />
+      <workItem from="1594157995871" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -233,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533168309480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated to handle dirty uninstall.  Added AWS v2">
+      <created>1594159832588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594159832588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +278,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added jenkins task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jenkins task" />
+    <MESSAGE value="Updated to handle dirty uninstall.  Added AWS v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to handle dirty uninstall.  Added AWS v2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1516" y="-1207" key="CommitChangelistDialog2" timestamp="1594159832347">
+      <screen x="645" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159832347" />
+    <state x="1724" y="-1055" key="RollbackChangesDialog" timestamp="1594159774475">
+      <screen x="645" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="1724" y="-1055" key="RollbackChangesDialog/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159774475" />
+    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2" timestamp="1594159875865">
+      <screen x="645" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159875865" />
+    <state x="1554" y="-987" key="git4idea.merge.GitPullDialog" timestamp="1594159862633">
+      <screen x="645" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="1554" y="-987" key="git4idea.merge.GitPullDialog/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159862633" />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">
