@@ -12,5 +12,8 @@ acn update
 acn list
 - return list of platforms
 
+acn version
+- return current version of tool
+
 acn [platform]
 - return commands available for specific platform

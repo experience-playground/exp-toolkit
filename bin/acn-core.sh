@@ -8,7 +8,7 @@ function __acn_list() {
 }
 
 function __acn_version() {
-  echo "0.1-beta"
+  echo "20.07-beta"
   return 0
 }
 

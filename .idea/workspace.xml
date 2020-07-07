@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Updated to handle dirty uninstall.  Added AWS v2">
-      <change afterPath="$PROJECT_DIR$/bin/acn-devops.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acn-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/acn-setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/acn-core.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/acn-core.sh" afterDir="false" />
+    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Added devops">
+      <change beforePath="$PROJECT_DIR$/text/acn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text/acn.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +239,7 @@
       <workItem from="1533313307513" duration="4550000" />
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
-      <workItem from="1594157995871" duration="3328000" />
+      <workItem from="1594157995871" duration="3632000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -258,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594159832588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added devops">
+      <created>1594161838855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594161838855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,13 +283,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added jenkins task" />
     <MESSAGE value="Updated to handle dirty uninstall.  Added AWS v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to handle dirty uninstall.  Added AWS v2" />
+    <MESSAGE value="Added devops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added devops" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1516" y="-1207" key="CommitChangelistDialog2" timestamp="1594159832347">
+    <state x="1516" y="-1207" key="CommitChangelistDialog2" timestamp="1594161838685">
       <screen x="645" y="-1417" width="2560" height="1417" />
     </state>
     <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159832347" />
+    <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594161838685" />
     <state x="1724" y="-1055" key="RollbackChangesDialog" timestamp="1594159774475">
       <screen x="645" y="-1417" width="2560" height="1417" />
     </state>
