@@ -1,3 +1,4 @@
 .idea
 /platforms/nodejs/
-/platforms/aws/
+/platforms/aws/*.pkg
+**.pem

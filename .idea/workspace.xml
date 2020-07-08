@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Added devops">
-      <change beforePath="$PROJECT_DIR$/text/acn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text/acn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/aws/setupworkspace.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-aws.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/acn-aws.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/aws" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,6 +77,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platforms/aws" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/platforms" />
       <recent name="$PROJECT_DIR$" />
@@ -239,7 +245,7 @@
       <workItem from="1533313307513" duration="4550000" />
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
-      <workItem from="1594157995871" duration="3632000" />
+      <workItem from="1594157995871" duration="5889000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -262,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594161838855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added devops">
+      <created>1594162043606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594162043606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,19 +300,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added devops" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1516" y="-1207" key="CommitChangelistDialog2" timestamp="1594161838685">
+    <state x="1516" y="-1207" key="CommitChangelistDialog2" timestamp="1594162043442">
       <screen x="645" y="-1417" width="2560" height="1417" />
     </state>
     <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159832347" />
-    <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594161838685" />
+    <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594162043442" />
+    <state x="1284" y="-1294" width="1789" height="901" key="DiffContextDialog" timestamp="1594170879572">
+      <screen x="645" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="1284" y="-1294" width="1789" height="901" key="DiffContextDialog/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594170879572" />
     <state x="1724" y="-1055" key="RollbackChangesDialog" timestamp="1594159774475">
       <screen x="645" y="-1417" width="2560" height="1417" />
     </state>
     <state x="1724" y="-1055" key="RollbackChangesDialog/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159774475" />
-    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2" timestamp="1594159875865">
+    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2" timestamp="1594162058156">
       <screen x="645" y="-1417" width="2560" height="1417" />
     </state>
     <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159875865" />
+    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594162058156" />
     <state x="1554" y="-987" key="git4idea.merge.GitPullDialog" timestamp="1594159862633">
       <screen x="645" y="-1417" width="2560" height="1417" />
     </state>
