@@ -1,4 +1,4 @@
-function __acn_fullstack {
+function __exp_fullstack {
    if [[ -z "$COMMAND" ]]; then
      echo "Available commands:"
      echo " install - setup fullstack tools"

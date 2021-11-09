@@ -22,11 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Added devops">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acn-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/acn-setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/acn-java.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/acn-java.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/acn-nodejs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/acn-nodejs.sh" afterDir="false" />
+    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Updated some names">
+      <change beforePath="$PROJECT_DIR$/acn-init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/exp-init.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acn-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/exp-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-aws.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-aws.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-core.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-core.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-devops.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-devops.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-fullstack.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-fullstack.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-help.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-help.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-java.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-java.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/acn-main.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/acn-main.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +263,7 @@
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
       <workItem from="1594157995871" duration="5889000" />
-      <workItem from="1636398532520" duration="4422000" />
+      <workItem from="1636398532520" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -288,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594162043606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated some names">
+      <created>1636464543024</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636464543024</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,31 +322,8 @@
     <MESSAGE value="Added jenkins task" />
     <MESSAGE value="Updated to handle dirty uninstall.  Added AWS v2" />
     <MESSAGE value="Added devops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added devops" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1516" y="-1207" key="CommitChangelistDialog2" timestamp="1594162043442">
-      <screen x="645" y="-1417" width="2560" height="1417" />
-    </state>
-    <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159832347" />
-    <state x="1516" y="-1207" key="CommitChangelistDialog2/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594162043442" />
-    <state x="1284" y="-1294" width="1789" height="901" key="DiffContextDialog" timestamp="1594170879572">
-      <screen x="645" y="-1417" width="2560" height="1417" />
-    </state>
-    <state x="1284" y="-1294" width="1789" height="901" key="DiffContextDialog/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594170879572" />
-    <state x="1724" y="-1055" key="RollbackChangesDialog" timestamp="1594159774475">
-      <screen x="645" y="-1417" width="2560" height="1417" />
-    </state>
-    <state x="1724" y="-1055" key="RollbackChangesDialog/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159774475" />
-    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2" timestamp="1594162058156">
-      <screen x="645" y="-1417" width="2560" height="1417" />
-    </state>
-    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159875865" />
-    <state x="1503" y="-1043" key="Vcs.Push.Dialog.v2/-1035.-1027.1680.1027/0.23.1680.934/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594162058156" />
-    <state x="1554" y="-987" key="git4idea.merge.GitPullDialog" timestamp="1594159862633">
-      <screen x="645" y="-1417" width="2560" height="1417" />
-    </state>
-    <state x="1554" y="-987" key="git4idea.merge.GitPullDialog/-1035.-1027.1680.1027/0.23.1680.929/645.-1417.2560.1417@645.-1417.2560.1417" timestamp="1594159862633" />
+    <MESSAGE value="Updated some names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated some names" />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">

@@ -1,4 +1,4 @@
-function acn {
+function exp {
   PLATFORM="$1"
   COMMAND="$2"
   case "$COMMAND" in
@@ -9,7 +9,7 @@ function acn {
 
   if [[ -z "$PLATFORM" ]]; then
     echo "help"
-		cat "$ACN_HOME_DIR/text/acn.txt"
+		cat "$EXP_HOME_DIR/text/exp.txt"
 		return 1
 	else
     __acn_"$PLATFORM" "$COMMAND"

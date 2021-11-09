@@ -1,4 +1,4 @@
-function __acn_devops {
+function __exp_devops {
    if [[ -z "$COMMAND" ]]; then
      echo "Available commands:"
      echo " install - install devops toolchains"

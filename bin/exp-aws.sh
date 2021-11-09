@@ -1,4 +1,4 @@
-function __acn_aws {
+function __exp_aws {
    if [[ -z "$COMMAND" ]]; then
      echo "Available commands:"
      echo " install - install aws cli"
@@ -6,10 +6,10 @@ function __acn_aws {
    fi
    case "$COMMAND" in
     install)
-      (cd "$ACN_PLATFORM_DIR"/aws; ./setupaws.sh) || return 1
+      (cd "$EXP_PLATFORM_DIR"/aws; ./setupaws.sh) || return 1
       echo "awscli installed";;
     workspaceinstall)
-      (cd "$ACN_PLATFORM_DIR"/aws; ./setupworkspace.sh) || return 1
+      (cd "$EXP_PLATFORM_DIR"/aws; ./setupworkspace.sh) || return 1
       echo "aws workspaces installed";;
    esac
   return 0

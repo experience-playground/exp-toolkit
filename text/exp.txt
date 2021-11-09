@@ -1,19 +1,19 @@
 Acclerate Code Now
-acn is a command line tool to accelerate setting up projects with common patterns and tools.
+exp is a command line tool to accelerate setting up projects with common patterns and tools.
 
 Usage
 =====
-acn
+exp
 - return this help
 
-acn update
+exp update
 - update this tool to latest version
 
-acn list
+exp list
 - return list of platforms
 
-acn version
+exp version
 - return current version of tool
 
-acn [platform]
+exp [platform]
 - return commands available for specific platform
