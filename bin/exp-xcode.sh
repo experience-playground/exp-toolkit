@@ -1,13 +1,13 @@
 function __exp_xcode {
    if [[ -z "$COMMAND" ]]; then
      echo "Available commands:"
-     echo " install - install latest xcode cli"
+     echo " install - install latest xcode"
    fi
 
 
    case "$COMMAND" in
             install)
-              sudo xcodebuild -license accept
+              sudo xcode-select --install
 
    esac
 

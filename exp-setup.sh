@@ -9,6 +9,8 @@ if [ -d $EXP_HOME_DIR ]; then
 	  echo " if that doesn't work, drop an email to ???"
 fi
 echo "[[ -s \"$HOME/.exp/exp-init.sh\" ]] && source \"$HOME/.exp/exp-init.sh\"" >> "$HOME/.bash_profile"
+echo "[[ -s \"$HOME/.exp/exp-init.sh\" ]] && source \"$HOME/.exp/exp-init.sh\"" >> "$HOME/.zshrc"
+
 git clone https://github.com/experience-playground/exp-toolkit.git $EXP_HOME_DIR
 (cd $EXP_HOME_DIR; git pull)
 echo
