@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Renamed">
+    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="fixed rename issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp-init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/exp-init.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/exp-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/exp-main.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-main.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +256,7 @@
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
       <workItem from="1594157995871" duration="5889000" />
-      <workItem from="1636398532520" duration="5340000" />
+      <workItem from="1636398532520" duration="5857000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -301,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636465058380</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed rename issue">
+      <created>1636465487729</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636465487729</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed rename issue">
+      <created>1636465578037</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636465578037</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +338,8 @@
     <MESSAGE value="Added devops" />
     <MESSAGE value="Updated some names" />
     <MESSAGE value="Renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed" />
+    <MESSAGE value="fixed rename issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed rename issue" />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">

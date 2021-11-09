@@ -12,7 +12,7 @@ function exp {
 		cat "$EXP_HOME_DIR/text/exp.txt"
 		return 1
 	else
-    __acn_"$PLATFORM" "$COMMAND"
+    __exp_"$PLATFORM" "$COMMAND"
   fi
 
 
