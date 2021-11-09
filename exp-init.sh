@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [[ -z "$EXP_HOME_DIR" ]]; then
-  export EXP_HOME_DIR=$HOME/.acn
+  export EXP_HOME_DIR=$HOME/.exp
 fi
 
 ACN_PLATFORM_DIR="$EXP_HOME_DIR/platforms"

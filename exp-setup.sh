@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z "$EXP_HOME_DIR" ]; then
-	export EXP_HOME_DIR="$HOME/.acn"
+	export EXP_HOME_DIR="$HOME/.exp"
 fi
 if [ -d $EXP_HOME_DIR ]; then
 	  echo " $EXP_HOME_DIR exists, looks like you've already set this up before, this might cause problems"
