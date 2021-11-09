@@ -3,7 +3,7 @@ function __exp_list() {
   echo " aws"
   echo " java"
   echo " nodejs"
-  echo " devops"
+  echo " heroku"
   return 0
 }
 

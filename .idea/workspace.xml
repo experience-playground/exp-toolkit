@@ -253,7 +253,7 @@
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
       <workItem from="1594157995871" duration="5889000" />
-      <workItem from="1636398532520" duration="6028000" />
+      <workItem from="1636398532520" duration="6468000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -318,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636465938938</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed rename issue">
+      <created>1636466123571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636466123571</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
