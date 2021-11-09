@@ -3,7 +3,7 @@ if [[ -z "$EXP_HOME_DIR" ]]; then
   export EXP_HOME_DIR=$HOME/.exp
 fi
 
-ACN_PLATFORM_DIR="$EXP_HOME_DIR/platforms"
+EXP_PLATFORM_DIR="$EXP_HOME_DIR/platforms"
 OLD_IFS="$IFS"
 IFS=$'\n'
 scripts=($(find "${EXP_HOME_DIR}/bin" -type f -name 'exp-*'))
