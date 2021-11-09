@@ -6,7 +6,7 @@ function __acn_nodejs {
    case "$COMMAND" in
     install)
       mkdir -p "$ACN_PLATFORM_DIR/nodejs"
-      curl https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o "$ACN_PLATFORM_DIR"/nodejs/install.sh
+      curl https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh -o "$ACN_PLATFORM_DIR"/nodejs/install.sh
       chmod 777 "$ACN_PLATFORM_DIR"/nodejs/install.sh
       (cd "$ACN_PLATFORM_DIR"/nodejs; ./install.sh) || return 1
       echo "nvm install...exit shell and relaunch, then run 'nvm'";;
