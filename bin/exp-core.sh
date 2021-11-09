@@ -7,6 +7,7 @@ function __exp_list() {
   echo " ruby"
   echo " shopify (requires ruby)"
   echo " xcode"
+  echo " virtualbox"
   return 0
 }
 
