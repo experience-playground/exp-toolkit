@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="fixed rename issue">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/exp-main.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-main.sh" afterDir="false" />
-    </list>
+    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="fixed rename issue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +253,7 @@
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
       <workItem from="1594157995871" duration="5889000" />
-      <workItem from="1636398532520" duration="5857000" />
+      <workItem from="1636398532520" duration="6028000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -314,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636465578037</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed rename issue">
+      <created>1636465938938</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636465938938</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
