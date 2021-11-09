@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Added ruby, shopify and xcode shells.">
-      <change afterPath="$PROJECT_DIR$/bin/exp-virtualbox.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Updated Readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +257,7 @@
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
       <workItem from="1594157995871" duration="5889000" />
-      <workItem from="1636398532520" duration="12154000" />
+      <workItem from="1636398532520" duration="12616000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -361,7 +357,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636472605915</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added virtualbox">
+      <created>1636473751883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1636473751883</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated Readme">
+      <created>1636473886357</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1636473886357</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +398,9 @@
     <MESSAGE value="fixed rename issue" />
     <MESSAGE value="Added Heroku" />
     <MESSAGE value="Added ruby, shopify and xcode shells." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ruby, shopify and xcode shells." />
+    <MESSAGE value="Added virtualbox" />
+    <MESSAGE value="Updated Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme" />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">
