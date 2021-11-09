@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d76ea0a-e4a9-4865-b167-278931c6d753" name="Default" comment="Added Heroku">
+      <change afterPath="$PROJECT_DIR$/bin/exp-ruby.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/exp-shopify.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/exp-xcode.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/exp-heroku.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-heroku.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/exp-core.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/exp-core.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/exp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text/exp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/aws" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,10 +81,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
       <recent name="$PROJECT_DIR$/platforms/aws" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -256,7 +264,7 @@
       <workItem from="1570462025224" duration="4192000" />
       <workItem from="1570466316472" duration="15277000" />
       <workItem from="1594157995871" duration="5889000" />
-      <workItem from="1636398532520" duration="7994000" />
+      <workItem from="1636398532520" duration="10763000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins task">
       <created>1533168309480</created>
@@ -335,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636466767340</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Heroku">
+      <created>1636468349658</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636468349658</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

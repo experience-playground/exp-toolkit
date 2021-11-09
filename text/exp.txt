@@ -1,5 +1,5 @@
-Acclerate Code Now
-exp is a command line tool to accelerate setting up projects with common patterns and tools.
+Enhanced Experience Platform Manager
+exp is a command line tool to accelerate setting up projects and tools with common patterns.
 
 Usage
 =====

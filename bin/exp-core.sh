@@ -3,7 +3,10 @@ function __exp_list() {
   echo " aws"
   echo " java"
   echo " nodejs"
-  echo " heroku"
+  echo " heroku (requires nodejs)"
+  echo " ruby"
+  echo " shopify (requires ruby)"
+  echo " xcode"
   return 0
 }
 
