@@ -8,6 +8,7 @@ function __exp_list() {
   echo " shopify (requires ruby)"
   echo " xcode"
   echo " virtualbox"
+  echo " claude"
   return 0
 }
 
