@@ -1,5 +1,5 @@
 ---
-name: exp-help
+name: exp
 description: Help users install and use the exp-toolkit CLI for setting up dev tools on macOS
 allowed-tools: Read Grep Glob Bash(exp *) Bash(cat *)
 ---
