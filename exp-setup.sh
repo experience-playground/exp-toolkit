@@ -22,3 +22,12 @@ echo "once you've done either of these, type:"
 echo
 echo "exp"
 
+if type -p claude &>/dev/null; then
+  printf "\nClaude Code detected. Would you like to add the exp-help skill to Claude? [y/N]: "
+  read answer
+  if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
+    mkdir -p "$HOME/.claude/skills/exp-help"
+    cp "$EXP_HOME_DIR/.claude/skills/exp-help/SKILL.md" "$HOME/.claude/skills/exp-help/SKILL.md"
+    echo "exp-help skill installed. Type /exp-help in Claude Code to use it."
+  fi
+fi

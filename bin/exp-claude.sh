@@ -2,6 +2,7 @@ function __exp_claude {
    if [[ -z "$COMMAND" ]]; then
      echo "Available commands:"
      echo " install - install Claude (desktop, code cli, or both)"
+     echo " skill   - install exp-help skill for Claude Code"
    fi
 
    case "$COMMAND" in
@@ -30,6 +31,9 @@ function __exp_claude {
                   ;;
               esac
               ;;
+            skill)
+              __exp_claude_skill
+              ;;
 
    esac
 
@@ -49,4 +53,10 @@ function __exp_claude_desktop {
 function __exp_claude_code {
   curl -fsSL https://claude.ai/install.sh | bash
   echo "Claude Code CLI installed"
+}
+
+function __exp_claude_skill {
+  mkdir -p "$HOME/.claude/skills/exp-help"
+  cp "$EXP_HOME_DIR/.claude/skills/exp-help/SKILL.md" "$HOME/.claude/skills/exp-help/SKILL.md"
+  echo "exp-help skill installed. Type /exp-help in Claude Code to use it."
 }
