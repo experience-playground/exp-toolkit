@@ -6,7 +6,7 @@ function __exp_nodejs {
    case "$COMMAND" in
     install)
       mkdir -p "$EXP_PLATFORM_DIR/nodejs"
-      curl https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh -o "$EXP_PLATFORM_DIR"/nodejs/install.sh
+      curl https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh -o "$EXP_PLATFORM_DIR"/nodejs/install.sh
       chmod 777 "$EXP_PLATFORM_DIR"/nodejs/install.sh
       (cd "$EXP_PLATFORM_DIR"/nodejs; ./install.sh) || return 1
       echo "nvm install...exit shell and relaunch, then run 'nvm'";;

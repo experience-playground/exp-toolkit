@@ -8,7 +8,7 @@ function __exp_vbox {
    case "$COMMAND" in
             install)
               mkdir -p "$EXP_PLATFORM_DIR/virtualbox"
-              curl https://download.virtualbox.org/virtualbox/6.1.28/VirtualBox-6.1.28-147628-OSX.dmg -o "$EXP_PLATFORM_DIR"/virtualbox/virtualbox.dmg
+              curl https://download.virtualbox.org/virtualbox/7.2.8/VirtualBox-7.2.8-173730-macOSArm64.dmg -o "$EXP_PLATFORM_DIR"/virtualbox/virtualbox.dmg
               hdiutil attach "$EXP_PLATFORM_DIR"/virtualbox/virtualbox.dmg
               sudo installer -pkg /Volumes/VirtualBox/VirtualBox.pkg -target /Volumes/Macintosh\ HD
 

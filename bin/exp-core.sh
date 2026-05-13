@@ -12,7 +12,7 @@ function __exp_list() {
 }
 
 function __exp_version() {
-  echo "21.11-beta"
+  echo "26.6"
   return 0
 }
 
