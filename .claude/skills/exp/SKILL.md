@@ -1,7 +1,7 @@
 ---
 name: exp
 description: Help users install and use the exp-toolkit CLI for setting up dev tools on macOS
-allowed-tools: Read Grep Glob Bash(exp *) Bash(cat *)
+allowed-tools: Bash(exp *)
 ---
 
 ## What is exp-toolkit?
@@ -10,11 +10,11 @@ exp is a command line tool that accelerates setting up development tools and pla
 
 ## Help text
 
-!`cat text/exp.txt`
+!`exp`
 
 ## Available tools
 
-!`cat bin/exp-core.sh`
+!`exp list`
 
 ## Installation
 
@@ -38,8 +38,7 @@ Prerequisites: git and Xcode command line tools (`xcode-select --install`).
 
 You are helping a user with the exp-toolkit CLI. When answering:
 
-1. Check which tools are available by reading `bin/exp-core.sh` or running `exp list`
-2. To understand how a specific tool installer works, read the corresponding `bin/exp-<tool>.sh` file
-3. Guide users through installation using the `exp <tool> install` pattern
-4. Note dependency requirements (e.g., heroku requires nodejs, shopify requires ruby)
-5. If the user wants to add a new tool, follow the existing pattern: create `bin/exp-<tool>.sh` with a `__exp_<tool>` function and add it to `__exp_list()` in `bin/exp-core.sh`
+1. Check which tools are available by running `exp list`
+2. Guide users through installation using the `exp <tool> install` pattern
+3. Note dependency requirements (e.g., heroku requires nodejs, shopify requires ruby)
+
