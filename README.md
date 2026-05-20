@@ -38,19 +38,52 @@ curl https://raw.githubusercontent.com/experience-playground/exp-toolkit/master/
 
 ## Install on Windows
 
-exp-toolkit uses WSL (Windows Subsystem for Linux) on Windows. The setup script will install WSL if needed.
+exp-toolkit runs inside WSL (Windows Subsystem for Linux). The setup script installs WSL and Ubuntu automatically if they're not already present.
 
-**Step 1:** Open PowerShell as Administrator and run:
+### Prerequisites
+
+- Windows 10 version 2004+ or Windows 11
+- Administrator access (required for WSL installation)
+
+### Step 1: Download the setup script
+
+Download [`exp-setup.ps1`](https://raw.githubusercontent.com/experience-playground/exp-toolkit/master/exp-setup.ps1) and save it to a folder (e.g., your Downloads folder).
+
+### Step 2: Run the setup script
+
+Open **PowerShell as Administrator**:
+1. Click Start, type "PowerShell"
+2. Right-click **Windows PowerShell** and select **Run as Administrator**
+
+Then navigate to where you saved the file and run:
+```powershell
+powershell -ExecutionPolicy Bypass -File .\exp-setup.ps1
+```
+
+This will:
+- Install WSL and Ubuntu if not already present
+- Install git inside WSL if needed
+- Clone exp-toolkit and configure your shell
+
+### Step 3: Restart if prompted
+
+If WSL was just installed for the first time, you may need to restart your computer. After restarting, run the same command again to finish setup.
+
+### Step 4: Open a WSL terminal
+
+Once setup is complete, open a WSL terminal using any of these methods:
+- Type `wsl` in PowerShell or Command Prompt
+- Open **Ubuntu** from the Start menu
+- Use **Windows Terminal** and select the Ubuntu tab
+
+All `exp` commands are run inside this WSL terminal.
+
+### Alternative: One-liner install
+
+If your execution policy allows it, you can also run this directly in an Administrator PowerShell:
 ```powershell
 irm https://raw.githubusercontent.com/experience-playground/exp-toolkit/master/exp-setup.ps1 | iex
 ```
-
-**Step 2:** If WSL was just installed, you may need to restart your computer and run the command again.
-
-**Step 3:** Open a WSL terminal to use exp:
-- Type `wsl` in PowerShell or Command Prompt
-- Or open "Ubuntu" from the Start menu
-- Or use Windows Terminal and select the Ubuntu tab
 
 ---
 
