@@ -1,4 +1,9 @@
 .idea
 /platforms/nodejs/
 /platforms/aws/*.pkg
+/platforms/aws/*.zip
+/platforms/sdkman/
+/platforms/ruby/
+/platforms/claude/
+/platforms/virtualbox/
 **.pem

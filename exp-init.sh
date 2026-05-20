@@ -4,13 +4,16 @@ if [[ -z "$EXP_HOME_DIR" ]]; then
 fi
 
 export EXP_PLATFORM_DIR="$EXP_HOME_DIR/platforms"
-OLD_IFS="$IFS"
-IFS=$'\n'
-scripts=($(find "${EXP_HOME_DIR}/bin" -type f -name 'exp-*'))
-for f in "${scripts[@]}"; do
-  source "$f"
-done
-IFS="$OLD_IFS"
-unset scripts f
 
-unset OLD_IFS
+# Source common library (config parser, dispatcher, core functions)
+source "$EXP_HOME_DIR/lib/common.sh"
+
+# Source platform-specific primitives
+case "$(__exp_detect_platform)" in
+  macos)
+    source "$EXP_HOME_DIR/lib/platforms/macos.sh"
+    ;;
+  linux)
+    source "$EXP_HOME_DIR/lib/platforms/linux.sh"
+    ;;
+esac

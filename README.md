@@ -1,5 +1,6 @@
 # Easy eXperience Platform Manager (EXP)
-gitbash command line to install management platforms for the following tools
+
+Command line tool to install and manage development platforms:
 
 - aws
 - java
@@ -7,53 +8,73 @@ gitbash command line to install management platforms for the following tools
 - heroku (requires nodejs)
 - ruby
 - shopify (requires ruby)
-- xcode
-- virtualbox
+- claude (Desktop and/or Code CLI)
+- xcode (macOS only)
+- virtualbox (macOS only)
 
-Currently developed for mac users only, some "might" work on ubuntu, it hasn't been tested.
+Works on macOS, Linux, and Windows (via WSL).
 
-# Prerequisites
-Currently, for this to work you need git, which on a new mac will require you to install the xcode command line tools (rvm and node need this anyway).  To install these just open a terminal and type:
+---
+
+## Install on macOS
+
+You need git, which on a new Mac requires Xcode Command Line Tools. Open a terminal and run:
 ```
 xcode-select --install
 ```
-A window with a license will pop up and you can then click continue.  Once this is done you can install this with simple gitbash from a terminal by typing:
+
+Then install exp-toolkit:
 ```
 curl https://raw.githubusercontent.com/experience-playground/exp-toolkit/master/exp-setup.sh | bash
 ```
 
-to uninstall, delete the $HOME/.exp directory and remove lines from $HOME/.zshrc and $HOME/.bash_profile that refer to the ~/.exp directory.
+## Install on Linux
 
-# Usage Examples
+You need git and curl. On Ubuntu/Debian:
 ```
-exp
+sudo apt-get update && sudo apt-get install -y git curl
+curl https://raw.githubusercontent.com/experience-playground/exp-toolkit/master/exp-setup.sh | bash
 ```
 
-will print which packages you can install and should look something like:
+## Install on Windows
 
+exp-toolkit uses WSL (Windows Subsystem for Linux) on Windows. The setup script will install WSL if needed.
+
+**Step 1:** Open PowerShell as Administrator and run:
+```powershell
+irm https://raw.githubusercontent.com/experience-playground/exp-toolkit/master/exp-setup.ps1 | iex
 ```
-help
-Enhanced Experience Platform Manager
-exp is a command line tool to accelerate setting up projects and tools with common patterns.
 
-Usage
-=====
-exp
-- return this help
+**Step 2:** If WSL was just installed, you may need to restart your computer and run the command again.
 
-exp update
-- update this tool to latest version
+**Step 3:** Open a WSL terminal to use exp:
+- Type `wsl` in PowerShell or Command Prompt
+- Or open "Ubuntu" from the Start menu
+- Or use Windows Terminal and select the Ubuntu tab
 
-exp list
-- return list of platforms
+---
 
-exp version
-- return current version of tool
-
-exp [platform]
-- return commands available for specific platform
+## Usage
 
 ```
-exp install nodejs
+exp                     # Show help
+exp list                # Show available tools for your platform
+exp version             # Show version
+exp update              # Update to latest version
+exp [tool]              # Show available commands for a tool
+exp [tool] install      # Install a tool
 ```
-will install nvm.
+
+### Examples
+
+```
+exp nodejs install      # Install Node.js via NVM
+exp java install        # Install Java via SDKMAN
+exp ruby install        # Install Ruby via RVM
+exp claude install      # Install Claude Desktop and/or Code CLI
+exp aws install         # Install AWS CLI
+```
+
+## Uninstall
+
+Delete `~/.exp` and remove the sourcing line from your shell profile (`~/.bashrc`, `~/.bash_profile`, or `~/.zshrc`).
