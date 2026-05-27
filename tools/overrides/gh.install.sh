@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Override: gh install — macOS uses .pkg from GitHub releases, Linux uses apt repo
+# Override: gh install — macOS uses arch-specific zip from GitHub releases, Linux uses apt repo
 
 local platform
 platform="$(__exp_detect_platform)"
@@ -22,10 +22,11 @@ case "$platform" in
 
     local dir="$EXP_PLATFORM_DIR/gh"
     mkdir -p "$dir"
-    local url="https://github.com/cli/cli/releases/download/v${version}/gh_${version}_macOS_${arch}.pkg"
+    local url="https://github.com/cli/cli/releases/download/v${version}/gh_${version}_macOS_${arch}.zip"
     echo "Downloading gh ${version} for macOS (${arch})..."
-    curl -fSL "$url" -o "$dir/gh.pkg" || return 1
-    sudo installer -verbose -pkg "$dir/gh.pkg" -target /
+    curl -fSL "$url" -o "$dir/gh.zip" || return 1
+    unzip -o "$dir/gh.zip" -d "$dir"
+    ln -sf "$dir/gh_${version}_macOS_${arch}/bin/gh" /usr/local/bin/gh
     ;;
   linux)
     echo "Adding GitHub CLI apt repository..."
