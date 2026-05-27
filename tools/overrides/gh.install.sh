@@ -26,7 +26,7 @@ case "$platform" in
     echo "Downloading gh ${version} for macOS (${arch})..."
     curl -fSL "$url" -o "$dir/gh.zip" || return 1
     unzip -o "$dir/gh.zip" -d "$dir"
-    ln -sf "$dir/gh_${version}_macOS_${arch}/bin/gh" /usr/local/bin/gh
+    sudo ln -sf "$dir/gh_${version}_macOS_${arch}/bin/gh" /usr/local/bin/gh
     ;;
   linux)
     echo "Adding GitHub CLI apt repository..."
